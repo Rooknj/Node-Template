@@ -19,7 +19,7 @@
   },
   "scripts": {
     "precommit": "lint-staged",
-    "start": "node src/index.js"
+    "start": "node scripts/start"
   },
   "main": "src/index.js"
 }
