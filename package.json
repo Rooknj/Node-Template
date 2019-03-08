@@ -23,5 +23,6 @@
     "precommit": "lint-staged",
     "start": "node scripts/start"
   },
-  "main": "src/index.js"
+  "main": "src/index.js",
+  "dependencies": {}
 }
