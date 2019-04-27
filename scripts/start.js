@@ -1,16 +1,20 @@
 "use strict";
 
+process.env.NODE_ENV = "development";
+process.env.DEBUG = "";
+
 const spawn = require("cross-spawn");
 const spawnArgs = require("spawn-args");
 const { delimiter } = require("path");
 const pathResolve = require("path").resolve;
 
-process.env.NODE_ENV = "development";
-
 // Crash on unhandled rejections
 process.on("unhandledRejection", err => {
   throw err;
 });
+
+// Get start arguments
+let argv = process.argv.slice(2);
 
 // Start Nodemon with cross-spawn
 const args = spawnArgs("nodemon", { removequotes: "always" });
