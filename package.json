@@ -1,7 +1,7 @@
 {
   "name": "node-template",
   "version": "0.1.0-alpha",
-  "description": "node-template",
+  "description": "template description",
   "main": "src/index.js",
   "scripts": {
     "test": "node scripts/test",
@@ -42,7 +42,7 @@
       "git add"
     ]
   },
-  "bin": {
-    "prod-server": "src/index.js"
+  "dependencies": {
+
   }
 }

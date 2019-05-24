@@ -1,8 +1,19 @@
 #
 .vscode
 
+# Source control files
+.git
+.gitignore
+README.md
+
+# Docker compose
+docker-compose.yml
+
 # production
 /build
+
+# misc
+.DS_Store
 
 # Logs
 logs
@@ -68,3 +79,5 @@ typings/
 
 # MacOS files
 .DS_Store
+
+

@@ -1,0 +1,5 @@
+version: "3"
+services:
+  template:
+    image: hello-world
+    container_name: template

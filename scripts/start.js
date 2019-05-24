@@ -15,6 +15,7 @@ process.on("unhandledRejection", err => {
 
 // Get start arguments
 let argv = process.argv.slice(2);
+console.log(argv)
 
 // Start Nodemon with cross-spawn
 const args = spawnArgs("nodemon", { removequotes: "always" });
